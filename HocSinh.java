@@ -7,7 +7,6 @@ public class HocSinh {
     private String hoten;
     private float dtb;
 
-    // Getters and Setters
     public int getMaso() {
         return maso;
     }
@@ -32,7 +31,7 @@ public class HocSinh {
         this.dtb = dtb;
     }
 
-    // Constructors
+
     public HocSinh() {
         this.maso = 0;
         this.hoten = "";
